@@ -67,7 +67,7 @@ li a:hover {
 .personalnavbar {
     font-family: 'Nunito', sans-serif;
     border-radius: 10px;
-    width: 542px;
+    width: 598px;
     background-color: rgb(139, 139, 139);
 }
 
@@ -85,11 +85,21 @@ li a:hover {
 
 }
 
-.projectidea {
+#footer {
     margin-bottom: 20px;
 }
 
 p {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+}
+
+li {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+}
+
+h2 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 18px;
 }
