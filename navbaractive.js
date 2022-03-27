@@ -90,3 +90,17 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
+
+function tests(testname) {
+    document.getElementById('myersbriggs').style.display = "none";
+    document.getElementById('limyersbriggs').classList.remove('personalactive');
+
+    document.getElementById('learningstyle').style.display = "none";
+    document.getElementById('lilearningstyle').classList.remove('personalactive');
+
+    document.getElementById('divergent').style.display = "none";
+    document.getElementById('lidivergent').classList.remove('personalactive');
+
+    document.getElementById(testname).classList.add('personalactive');
+    document.getElementById(testname.slice(2)).style.display = "block";
+}
